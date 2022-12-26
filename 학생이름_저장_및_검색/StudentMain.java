@@ -1,4 +1,4 @@
-package ÇÐ»ýÀÌ¸§_ÀúÀå_¹×_°Ë»ö;
+package ï¿½Ð»ï¿½ï¿½Ì¸ï¿½_ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½_ï¿½Ë»ï¿½;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -7,9 +7,9 @@ public class StudentMain {
 
 	public static void main(String[] args) {
 		
-		Students st1 = new Students("È«±æµ¿", "2016");
-		Students st2 = new Students("±èÀ¯½Å", "2015");
-		Students st3 = new Students("ÀÌ¼ø½Å", "2014");
+		Students st1 = new Students("È«ï¿½æµ¿", "2016");
+		Students st2 = new Students("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", "2015");
+		Students st3 = new Students("ï¿½Ì¼ï¿½ï¿½ï¿½", "2014");
 		
 		
 		ArrayList<Students> stList = new ArrayList<Students>();
@@ -26,7 +26,7 @@ public class StudentMain {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("[°è¼Ó °Ë»öÀ» ÇÏ°í½ÍÀ¸½Ã¸é 'y', Á¾·áÇÏ°í½ÍÀ¸¸é 'n']");
+		System.out.println("[ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½ï¿½ ï¿½Ï°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¸ï¿½ 'y', ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 'n']");
 		
 		
 		
@@ -41,10 +41,10 @@ public class StudentMain {
 			} else if(input.equals("n")) {
 				break;
 			} else {
-				System.out.println("ÀÔ·ÂÀÌ Àß ¸ø µÇ¾ú½À´Ï´Ù.");
+				System.out.println("ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 			}
 			
 		}
-		System.out.println("ÇÁ·Î±×·¥ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 	}
 }
