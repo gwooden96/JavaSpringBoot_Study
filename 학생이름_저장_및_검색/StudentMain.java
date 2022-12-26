@@ -1,4 +1,4 @@
-package �л��̸�_����_��_�˻�;
+package 학생이름_저장_및_검색;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -7,9 +7,9 @@ public class StudentMain {
 
 	public static void main(String[] args) {
 		
-		Students st1 = new Students("ȫ�浿", "2016");
-		Students st2 = new Students("������", "2015");
-		Students st3 = new Students("�̼���", "2014");
+		Students st1 = new Students("홍길동", "2016");
+		Students st2 = new Students("김유신", "2015");
+		Students st3 = new Students("이순신", "2014");
 		
 		
 		ArrayList<Students> stList = new ArrayList<Students>();
@@ -26,7 +26,7 @@ public class StudentMain {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("[��� �˻��� �ϰ������ø� 'y', �����ϰ������� 'n']");
+		System.out.println("[계속 검색을 하고싶으시면 'y', 종료하고싶으면 'n']");
 		
 		
 		
@@ -41,10 +41,10 @@ public class StudentMain {
 			} else if(input.equals("n")) {
 				break;
 			} else {
-				System.out.println("�Է��� �� �� �Ǿ����ϴ�.");
+				System.out.println("입력이 잘 못 되었습니다.");
 			}
 			
 		}
-		System.out.println("���α׷��� ����Ǿ����ϴ�.");
+		System.out.println("프로그램이 종료되었습니다.");
 	}
 }

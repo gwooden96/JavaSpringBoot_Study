@@ -1,4 +1,4 @@
-package ÇĞ»ıÀÌ¸§_ÀúÀå_¹×_°Ë»ö;
+package í•™ìƒì´ë¦„_ì €ì¥_ë°_ê²€ìƒ‰;
 
 public class Students {
 	
