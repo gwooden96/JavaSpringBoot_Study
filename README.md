@@ -1,2 +1,2 @@
-# JavaSpringBoot_Study
-자바스프링부트 공부
+# Java_Algorism_Study
+자바 알고리즘 공부
